@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #999;
+}
+main{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+}
+#hero{
+    width: 100%;
+    height: 25vh;
+    float: left;
+    background: yellow;
+}
+#personagens{
+    width: 100%;
+    height: 30vh;
+    float: left;
+    background: green;
+}
+.personagem{
+    width: 15%;
+    height: 25vh;
+    float: left;
+    background: #fff;
+    margin-left: 4.16%;
+    margin-top: 2.5vh;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personagem img{
+    height: 100%;
+    width: auto;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+}
+.personagem img:hover{
+   filter:grayscale(0%);
+}
+#video{
+    width: 100%;
+    height: 50vh;
+    float: left;
+    background: red;
+}
